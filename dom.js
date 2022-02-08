@@ -18,11 +18,22 @@
 
 // getelemented //
 //console.log(document.getElementById('header-title'));
-var headerTitle = document.getElementById('header-title');
+// var headerTitle = document.getElementById('header-title');
+// var header = document.getElementById('main-header');
 //console.log(headerTitle);
 // headerTitle.textContent = 'hello';
 // headerTitle.innerText = 'Goodbye';
 //console.log(headerTitle.innerText);
 //headerTitle.innerHTML = ' <h3>hello</h3>';
+//header.style.borderBottom = 'solid 3px #000';
+// get elements by classnames//
+var items=document.getElementsByClassName('list-group-item');
+console.log(items);
+console.log(items[1]);
+
+
+
+
+
 
 
